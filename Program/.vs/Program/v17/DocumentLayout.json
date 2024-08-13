@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F86DB0B-A6CF-4403-BF66-23CA199D2C22}|..\\Class2th (Variable \u0026 Constant)\\Class2th (Variable \u0026 Constant).vcxproj|C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class2th (Variable \u0026 Constant)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{376B1B3E-F964-44B1-A6C6-D3EAD13DE609}|..\\Class3th (Bit)\\Class3th (Bit).vcxproj|C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class3th (Bit)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +19,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class2th (Variable \u0026 Constant)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class2th (Variable \u0026 Constant)\\Source.c",
-              "ToolTip": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class2th (Variable \u0026 Constant)\\Source.c",
-              "RelativeToolTip": "..\\Class2th (Variable \u0026 Constant)\\Source.c",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAAGoAAAARAAAA",
+              "DocumentMoniker": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class3th (Bit)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class3th (Bit)\\Source.c",
+              "ToolTip": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class3th (Bit)\\Source.c",
+              "RelativeToolTip": "..\\Class3th (Bit)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-12T11:16:18.179Z",
+              "WhenOpened": "2024-08-13T11:05:31.082Z",
               "EditorCaption": ""
             }
           ]
