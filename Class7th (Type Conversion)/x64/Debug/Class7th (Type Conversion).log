@@ -1,0 +1,3 @@
+﻿  Source.c
+C:\Users\mk051\Desktop\SBS-Game-Academy-Lecture\Class7th (Type Conversion)\Source.c(29,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  Class7th (Type Conversion).vcxproj -> C:\Users\mk051\Desktop\SBS-Game-Academy-Lecture\Program\x64\Debug\Class7th (Type Conversion).exe
