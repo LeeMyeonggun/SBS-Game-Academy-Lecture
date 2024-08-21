@@ -1,93 +1,135 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include "../Class7th (Type Conversion)/GameManager.h"
 
 #define SIZE 5
 
 void main()
 {
-#pragma region 포인터
-	// 메모리의 주소 값을 저장할 수 있는 변수입니다.
+#pragma region 상수 지시 포인터
+
+	// int a = 10;
+	// int b = 20;
+	// 
+	// const int *ptr = NULL;
+	// 
+	// // printf("ptr이 가리키는 값 : %d\n", *ptr);
+	// 
+	// ptr = &a;
+	// 
+	// printf("ptr이 가리키는 값 : %d\n", *ptr);
+	// 
+	// ptr = &b;
+	// 
+	// printf("ptr이 가리키는 값 : %d\n", *ptr);
+	// 
+	// // *ptr = 99;
+
+	
+#pragma endregion
+
+
+#pragma region 포인터 상수
+	// 포인터를 상수로 선언하여, 포인터 변수가
+	// 가리키는 있는 주소에 존재하는 값을 변경할
+	// 수 없도록 설정할 수 있습니다.
 
 	// int x = 10;
 	// int y = 20;
-	// float z = 30.0f;
 	// 
-	// int * ptr = NULL;
+	// int * const cptr = &x;
 	// 
-	// ptr = &x;
+	// *cptr = 99;
 	// 
-	// *ptr = 300;
-	// 
-	// printf("ptr 변수의 값 : %p\n", ptr);
-	// printf("x 변수의 주소값 : %p\n", &x);
-	// printf("x 변수의 값 : %d\n", x);
-	// 
-	// //포인터 변수도 자신의 메모리 공간을 가지고 있으며,
-	// // 포인터 변수에 변수의 주소를 저장하게 되면 해당
-	// // 변수의 시작 주소를 가리키게 됩니다.
-	// 
-	// printf("포인터 변수의 크기 : %d\n", sizeof(ptr));
-	// 
-	// // 포인터 변수의 크기는 중앙 처리 장치가 한 번에
-	// // 처리할 수 있는 크기로 정해지며, 한 번에 처리할
-	// // 수 있는 크기는 운영체제에 따라 크기가 결정됩니다.
-	// 
-	// ptr = &y;
-	//  	
-	// *ptr = 99;
-	// 
-	// printf("ptr 변수의 주소값 : %p\n", &ptr);
-	// printf("ptr 변수의 값 : %p\n", ptr);
-	// printf("y 변수의 주소값 %p\n", & ptr);
-	// printf("y 변수의 값 : %d\n", y);
-	// 
-	// 
-	// ptr = &z;
-	// 
-	// *ptr = 100;
-	// 
-	// // 포인터 변수를 저장하기 위해 주소값을 저장할
-	// // 변수의 자료형과 포인터 변수의 자료형이 일치해야 합니다.
-	// 
-	// printf("z 변수의 값 : %f\n", z);
-	// 
-	// printf("포이터 변수의 크기 : %d\n", sizeof(ptr));
+	// printf("x변수의 값 : %d\n", x);
+
+	// cptr = &y;
 
 #pragma endregion
 
 
-#pragma region 전처리기
-	// 프로그램이 컴파일 되기 이전에 프로그램에 대한
-	// 사전 처리를 하는 과정입니다.
+#pragma region 배열
 
-	//time = 15.0f;
-	//
-	//printf("time 변수의 값 : %f\n", time);
+	// 같은 자료형의 변수들로 이루어진 유한 집합입니다.
 
-	// 전처리기는 컴파일러가 아닌 선행처리기에 의해서
-	// 처리되는 문장이기 때문에 명령문 끝에 ";"을
-	// 사용하지 않습니다.
+	// 배열의 경우 첫 번째 원소는 0부터 시작합니다.
 
-#pragma endregion
+	// array[0] = 10;
 
+	// printf("array[0]의 값 : %d\n", array[0]);
 
-#pragma region 매크로
-	// 프로그램 내에서 특정한 데이터가 문자열로 정의
-	// 되고 처리되는 과정입니다.
+	// 배열은 원하는 원소에 원하는 값을 저장할 수 있으며,
+	// 배열의 크기는 컴파일이 되는 시점부터 고정된 메모리
+	// 공간을 가지게 됩니다.
+	
+#pragma region (1)0 ~ 50 배열에 담기
 
-	// printf("매크로 SIZE의 값 : %d\n", SIZE);
+	// [10] [20] [30] [40] [50]
+	
+	// int array[5];
+	// printf("array의 크기 %d\n", sizeof(array));
 	// 
-	// // 매크로의 과정은 컴파일 이전에 실행되며, 각 매크로가
-	// // 실행될 때 매크로의 대체 목록을 넣어야 하므로 프로그램의
-	// // 크기가 커지게 됩니다.
+	// int size = sizeof(array) / sizeof(int);
 	// 
-	// for (int i = 0; i < SIZE; i++)
+	// 
+	// for (int i = 1; i <= size; i++)
 	// {
-	// 	printf("Update\n");
+	// 	array[i - 1] = i * 10;
+	// }
+	// 
+	// printf("Method 1\n");
+	// for (int i = 1; i <= size; i++)
+	// {
+	// 	printf("array[%d]의 값 : %d\n", i - 1, array[i - 1]);
 	// }
 
-	// 매크로의 경우 자료형이 존재하지 않으므로 메모리
-	// 공간을 가지고 있지 않습니다.
+	// 또는 
+	// i → 0
+	// array[i -1] → array[i]
+	// i * 10 → (i + 1)*10
+	// 치환해도 결과는 동일함
+
+
+	// printf("Method 2\n");
+	// for (int i = 0; i < size; i++)
+	// {
+	// 	array[i] = (i + 1) * 10;
+	// }
+	// 
+	// for (int i = 0; i < size; i++)
+	// {
+	// 	printf("array[%d]의 값 : %d\n", i, array[i]);
+	// }
+
+#pragma endregion
+
+	// int list[] = { 1, 2, 3, 4, 5, 6, 7 };
+	// 
+	// 
+	// for (int i = 0; i < sizeof(list) / sizeof(int); i++)
+	// {
+	// 	printf("list[%d]의 값 : %d\n", i, list[i]);
+	// }
+
+	// 배열의 크기는 생략할 수 있으며, 초기화 목록에서
+	// 설정한 요소에 따라 배열의 크기가 결정됩니다.
+
+	// int table[] = { 1, 2, 3 };
+	// 
+	// printf("table의 주소는 : %p\n", table);
+	// printf("table[0]의 주소는 : %p\n", &table[0]);
+	// 
+	// int * p = NULL;
+	// 
+	// p = table;
+	// 
+	// p += 1;
+	// 
+	// *p = 135;
+	// 
+	// printf("table[1]의 값 : %d\n", *table);
+	
+	// 배열은 연속적인 메모리 공간을 가지며, 배열의 이름은
+	// 배열의 시작 주소를 가리킵니다.
 
 #pragma endregion
 
