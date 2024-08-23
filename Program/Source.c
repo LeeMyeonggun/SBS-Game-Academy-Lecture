@@ -6,5 +6,5 @@ void main()
 
 	string[0] = 'B';
 
-	printf("Hello");
+	printf("%s",string);
 }
