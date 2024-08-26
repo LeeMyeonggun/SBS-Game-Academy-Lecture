@@ -7,8 +7,8 @@ void Function()
 
 void coordinate(int x, int y)
 {
-	printf("¸Å°³ º¯¼ö xÀÇ °ª : %d\n", x);
-	printf("¸Å°³ º¯¼ö yÀÇ °ª : %d\n", y);
+	printf("ë§¤ê°œ ë³€ìˆ˜ xì˜ ê°’ : %d\n", x);
+	printf("ë§¤ê°œ ë³€ìˆ˜ yì˜ ê°’ : %d\n", y);
 }
 
 int Damage(int damage)
@@ -18,7 +18,7 @@ int Damage(int damage)
 	return damage;
 }
 
-void Swap(int *x, int *y)
+void Swap(int* x, int* y)
 {
 	int temp = *x;
 	*x = *y;
@@ -27,25 +27,25 @@ void Swap(int *x, int *y)
 
 void main()
 {
-#pragma region ÇÔ¼ö
-	// ÇÏ³ªÀÇ Æ¯º°ÇÑ ¸ñÀûÀÇ ÀÛ¾÷À» ¼öÇàÇÏ±â À§ÇØ
-	// µ¶¸³ÀûÀ¸·Î ¼³°èµÈ ÄÚµåÀÇ ÁýÇÕÀÔ´Ï´Ù.
+#pragma region í•¨ìˆ˜
+	// í•˜ë‚˜ì˜ íŠ¹ë³„í•œ ëª©ì ì˜ ìž‘ì—…ì„ ìˆ˜í–‰í•˜ê¸° ìœ„í•´
+	// ë…ë¦½ì ìœ¼ë¡œ ì„¤ê³„ëœ ì½”ë“œì˜ ì§‘í•©ìž…ë‹ˆë‹¤.
 
 	// Function();
-	
-	// ÇÔ¼öÀÇ °æ¿ì ÀÚ·áÇü°ú ¹ÝÈ¯ÇÏ´Â °ªÀÇ ÇüÅÂ°¡
-	// ÀÏÄ¡ÇÏÁö ¾ÊÀ¸¸é ¿øÇÏ´Â °ªÀ» ¾òÀ» ¼ö ¾øÀ¸¸ç,
-	// °°Àº ÀÌ¸§ÀÇ ÇÔ¼ö¸¦ Áßº¹À¸·Î ¼±¾ðÇÒ ¼ö ¾ø½À´Ï´Ù.
 
-#pragma region ¸Å°³ º¯¼ö
-	// ÇÔ¼öÀÇ Á¤ÀÇ¿¡¼­ Àü´Þ¹ÞÀº ÀÎ¼ö¸¦ ÇÔ¼ö ³»ºÎ·Î Àü´ÞÇÏ±â
-	// À§ÇØ »ç¿ëÇÏ´Â º¯¼öÀÔ´Ï´Ù.
+	// í•¨ìˆ˜ì˜ ê²½ìš° ìžë£Œí˜•ê³¼ ë°˜í™˜í•˜ëŠ” ê°’ì˜ í˜•íƒœê°€
+	// ì¼ì¹˜í•˜ì§€ ì•Šìœ¼ë©´ ì›í•˜ëŠ” ê°’ì„ ì–»ì„ ìˆ˜ ì—†ìœ¼ë©°,
+	// ê°™ì€ ì´ë¦„ì˜ í•¨ìˆ˜ë¥¼ ì¤‘ë³µìœ¼ë¡œ ì„ ì–¸í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
+
+#pragma region ë§¤ê°œ ë³€ìˆ˜
+	// í•¨ìˆ˜ì˜ ì •ì˜ì—ì„œ ì „ë‹¬ë°›ì€ ì¸ìˆ˜ë¥¼ í•¨ìˆ˜ ë‚´ë¶€ë¡œ ì „ë‹¬í•˜ê¸°
+	// ìœ„í•´ ì‚¬ìš©í•˜ëŠ” ë³€ìˆ˜ìž…ë‹ˆë‹¤.
 
 	// coordinate(5, 10);
 
-	// ¸Å°³º¯¼ö´Â ÇÔ¼ö ³»ºÎ¿¡¼­¸¸ ¿¬»êÀÌ ÀÌ·ç¾îÁö¸ç,
-	// ÇÔ¼ö°¡ Á¾·áµÇ¸é ¸Þ¸ð¸®¿¡¼­ »ç¶óÁö¸ç, ¿©·¯ °³ÀÇ
-	// ¸Å°³ º¯¼ö¸¦ »ý¼ºÇÒ ¼ö ÀÖ½À´Ï´Ù.
+	// ë§¤ê°œë³€ìˆ˜ëŠ” í•¨ìˆ˜ ë‚´ë¶€ì—ì„œë§Œ ì—°ì‚°ì´ ì´ë£¨ì–´ì§€ë©°,
+	// í•¨ìˆ˜ê°€ ì¢…ë£Œë˜ë©´ ë©”ëª¨ë¦¬ì—ì„œ ì‚¬ë¼ì§€ë©°, ì—¬ëŸ¬ ê°œì˜
+	// ë§¤ê°œ ë³€ìˆ˜ë¥¼ ìƒì„±í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
 	// int damage = 10;
 	// printf("Damage : %d\n", damage);
@@ -55,30 +55,30 @@ void main()
 #pragma endregion
 
 
-#pragma region ÀÎ¼ö
-	// ÇÔ¼ö°¡ È£ÃâµÉ ¶§ ¸Å°³ º¯¼ö¿¡ ½ÇÁ¦·Î Àü´ÞµÇ´Â °ªÀÔ´Ï´Ù.
+#pragma region ì¸ìˆ˜
+	// í•¨ìˆ˜ê°€ í˜¸ì¶œë  ë•Œ ë§¤ê°œ ë³€ìˆ˜ì— ì‹¤ì œë¡œ ì „ë‹¬ë˜ëŠ” ê°’ìž…ë‹ˆë‹¤.
 
 	// int a = 10;
 	// int b = 20;
-	
+
 	// int temp = a;
 	// a = b;
 	// b = temp;
 	// 
-	// printf("aÀÇ °ª : %d\n", a);
-	// printf("bÀÇ °ª : %d\n", b);
+	// printf("aì˜ ê°’ : %d\n", a);
+	// printf("bì˜ ê°’ : %d\n", b);
 
 
 	// Swap(&a, &b);
 	//  
-	// printf("aÀÇ °ª : %d\n", a);
-	// printf("bÀÇ °ª : %d\n", b);
+	// printf("aì˜ ê°’ : %d\n", a);
+	// printf("bì˜ ê°’ : %d\n", b);
 
 
 
-	// ÀÎ¼öÀÇ °æ¿ì ÇÔ¼ö¿¡ ÀÖ´Â ¸Å°³ º¯¼öÀÇ ¼ö¿¡ µû¶ó Àü´ÞÇÒ ¼ö
-	// ÀÖ´Â ÀÎ¼öÀÇ ¼ö°¡ °áÁ¤µÇ¸ç, °ªÀ» Àü´ÞÇÏ´Â ÀÎ¼ö¿Í °ªÀ»
-	// Àü´Þ ¹Þ´Â ¸Å°³ º¯¼öÀÇ ÀÚ·áÇüÀÌ ¼­·Î ÀÏÄ¡ÇØ¾ß ÇÕ´Ï´Ù.
+	// ì¸ìˆ˜ì˜ ê²½ìš° í•¨ìˆ˜ì— ìžˆëŠ” ë§¤ê°œ ë³€ìˆ˜ì˜ ìˆ˜ì— ë”°ë¼ ì „ë‹¬í•  ìˆ˜
+	// ìžˆëŠ” ì¸ìˆ˜ì˜ ìˆ˜ê°€ ê²°ì •ë˜ë©°, ê°’ì„ ì „ë‹¬í•˜ëŠ” ì¸ìˆ˜ì™€ ê°’ì„
+	// ì „ë‹¬ ë°›ëŠ” ë§¤ê°œ ë³€ìˆ˜ì˜ ìžë£Œí˜•ì´ ì„œë¡œ ì¼ì¹˜í•´ì•¼ í•©ë‹ˆë‹¤.
 #pragma endregion
 
 
