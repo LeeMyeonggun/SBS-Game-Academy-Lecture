@@ -1,5 +1,5 @@
 ﻿#include <stdio.h>
-#include "../Class7th (Type Conversion)/GameManager.h"
+#include "GameManager.h"
 
 #define SIZE 5
 
