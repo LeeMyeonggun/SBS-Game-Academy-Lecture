@@ -68,7 +68,11 @@ int main()
 
 
 #pragma region 자기 참조 구조체
-	
+
+	// Node1, Node2, Node3 자기 참조 구조체를 선언하여 초기화하고
+	// 구조체의 next 멤버변수가 NULL이 되기 전까지 currentNode라는 포인터가
+	// Node1, 2, 3, ... 을 순회하며 data값을 출력
+
 	struct Node node1;
 	struct Node node2;
 	struct Node node3;
@@ -81,12 +85,15 @@ int main()
 	node2.next = &node3;
 	node3.next = NULL;
 
+
 	struct Node * currentNode = &node1;
 
-	while (currentNode->data != NULL)
+	printf("data : %d\n", currentNode->data);
+
+	while (currentNode->next != NULL)
 	{
-		printf("data : %d\n", currentNode->data);
 		currentNode = currentNode->next;
+		printf("data : %d\n", currentNode->data);
 	}
 	
 
