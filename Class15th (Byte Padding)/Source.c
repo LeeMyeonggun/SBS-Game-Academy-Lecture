@@ -82,38 +82,53 @@ int main()
 	
 	srand(time(NULL));
 	
-	int Computer = rand();
+	int Computer = rand() % 50 + 1;
 
 	int Life = 5;
 
-	int Player;
+	int Player = 0;
 
 	
-	while (Life > 0)
+	while (1)
 	{
+
+		printf("Life : ");
+		for (int i = 0; i < Life; i++)
+		{
+			printf("♥ ");
+		}
+		for (int i = 0; i < 5 - Life; i++)
+		{
+			printf("♡ ");
+		}
+		printf("\n");
+		printf("값을 입력해주세요 : ");
 		scanf_s("%d", &Player);
 
 		if (Player == Computer)
 
 		{	
 			printf("Victory");
+			break;
 		}
 		else
 		{
 			Life -= 1;
 			if (Life == 0)
 			{
-				printf("Lose");
+				printf("Lose\n");
+				printf("정답 : %d", Computer);
+				break;
 			}
 			else
 			{
 				if (Player > Computer)
 				{
-					printf("Computer가 가지고 있는 값보다 큽니다.");
+					printf("Computer가 가지고 있는 값보다 큽니다.\n");
 				}
 				else
 				{
-					printf("Computer가 가지고 있는 값보다 작습니다.");
+					printf("Computer가 가지고 있는 값보다 작습니다.\n");
 				}
 			}
 			
