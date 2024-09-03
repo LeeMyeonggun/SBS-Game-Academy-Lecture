@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{15743874-DBCF-4A2E-A3C0-27E12DE7258A}|..\\Class18th (Double Pointer)\\Class18th (Double Pointer).vcxproj|C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class18th (Double Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{864A950B-2F07-4277-8EE9-E8ADDAD4BED1}|..\\Class17th (Digling Pointer)\\Class17th (Digling Pointer).vcxproj|C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class17th (Digling Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D7E885DB-40FF-41D4-8408-6E89D8FC921E}|..\\Class16th (Random)\\Class16th (Random).vcxproj|C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class16th (Random)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -19,11 +25,37 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class18th (Double Pointer)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class18th (Double Pointer)\\Source.c",
+              "ToolTip": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class18th (Double Pointer)\\Source.c",
+              "RelativeToolTip": "..\\Class18th (Double Pointer)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-03T12:42:20.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class17th (Digling Pointer)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class17th (Digling Pointer)\\Source.c",
+              "ToolTip": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class17th (Digling Pointer)\\Source.c",
+              "RelativeToolTip": "..\\Class17th (Digling Pointer)\\Source.c",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAiwHIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-03T11:05:03.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class16th (Random)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class16th (Random)\\Source.c",
               "ToolTip": "C:\\Users\\mk051\\Desktop\\SBS-Game-Academy-Lecture\\Class16th (Random)\\Source.c",
               "RelativeToolTip": "..\\Class16th (Random)\\Source.c",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAAAH0AAAAHAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwH0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-02T11:21:43.855Z",
               "EditorCaption": ""

@@ -37,6 +37,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class15th (Byte Padding)", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class16th (Random)", "..\Class16th (Random)\Class16th (Random).vcxproj", "{D7E885DB-40FF-41D4-8408-6E89D8FC921E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class17th (Dangling Pointer)", "..\Class17th (Digling Pointer)\Class17th (Digling Pointer).vcxproj", "{864A950B-2F07-4277-8EE9-E8ADDAD4BED1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class18th (Double Pointer)", "..\Class18th (Double Pointer)\Class18th (Double Pointer).vcxproj", "{15743874-DBCF-4A2E-A3C0-27E12DE7258A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +185,22 @@ Global
 		{D7E885DB-40FF-41D4-8408-6E89D8FC921E}.Release|x64.Build.0 = Release|x64
 		{D7E885DB-40FF-41D4-8408-6E89D8FC921E}.Release|x86.ActiveCfg = Release|Win32
 		{D7E885DB-40FF-41D4-8408-6E89D8FC921E}.Release|x86.Build.0 = Release|Win32
+		{864A950B-2F07-4277-8EE9-E8ADDAD4BED1}.Debug|x64.ActiveCfg = Debug|x64
+		{864A950B-2F07-4277-8EE9-E8ADDAD4BED1}.Debug|x64.Build.0 = Debug|x64
+		{864A950B-2F07-4277-8EE9-E8ADDAD4BED1}.Debug|x86.ActiveCfg = Debug|Win32
+		{864A950B-2F07-4277-8EE9-E8ADDAD4BED1}.Debug|x86.Build.0 = Debug|Win32
+		{864A950B-2F07-4277-8EE9-E8ADDAD4BED1}.Release|x64.ActiveCfg = Release|x64
+		{864A950B-2F07-4277-8EE9-E8ADDAD4BED1}.Release|x64.Build.0 = Release|x64
+		{864A950B-2F07-4277-8EE9-E8ADDAD4BED1}.Release|x86.ActiveCfg = Release|Win32
+		{864A950B-2F07-4277-8EE9-E8ADDAD4BED1}.Release|x86.Build.0 = Release|Win32
+		{15743874-DBCF-4A2E-A3C0-27E12DE7258A}.Debug|x64.ActiveCfg = Debug|x64
+		{15743874-DBCF-4A2E-A3C0-27E12DE7258A}.Debug|x64.Build.0 = Debug|x64
+		{15743874-DBCF-4A2E-A3C0-27E12DE7258A}.Debug|x86.ActiveCfg = Debug|Win32
+		{15743874-DBCF-4A2E-A3C0-27E12DE7258A}.Debug|x86.Build.0 = Debug|Win32
+		{15743874-DBCF-4A2E-A3C0-27E12DE7258A}.Release|x64.ActiveCfg = Release|x64
+		{15743874-DBCF-4A2E-A3C0-27E12DE7258A}.Release|x64.Build.0 = Release|x64
+		{15743874-DBCF-4A2E-A3C0-27E12DE7258A}.Release|x86.ActiveCfg = Release|Win32
+		{15743874-DBCF-4A2E-A3C0-27E12DE7258A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
